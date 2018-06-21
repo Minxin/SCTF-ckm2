@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/fancy/AndroidStudioProjects/crackme2/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/fancy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fancy/AndroidStudioProjects/crackme2/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"ckm-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "ckm",
+			"buildCommand" : "/Users/fancy/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/fancy/AndroidStudioProjects/crackme2/app/.externalNativeBuild/cmake/debug/x86 --target ckm",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/fancy/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/fancy/Library/Android/sdk/ndk-bundle/sysroot  -Dckm_EXPORTS -isystem /Users/fancy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/fancy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/fancy/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/fancy/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=19 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/fancy/AndroidStudioProjects/crackme2/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/fancy/AndroidStudioProjects/crackme2/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/fancy/AndroidStudioProjects/crackme2/app/build/intermediates/cmake/debug/obj/x86/libckm.so",
+			"toolchain" : "14338706862628944379"
+		}
+	},
+	"toolchains" : 
+	{
+		"14338706862628944379" : 
+		{
+			"cCompilerExecutable" : "/Users/fancy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/fancy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

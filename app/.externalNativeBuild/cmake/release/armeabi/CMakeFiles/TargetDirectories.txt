@@ -1,0 +1,3 @@
+/Users/fancy/AndroidStudioProjects/crackme2/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/edit_cache.dir
+/Users/fancy/AndroidStudioProjects/crackme2/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/rebuild_cache.dir
+/Users/fancy/AndroidStudioProjects/crackme2/app/.externalNativeBuild/cmake/release/armeabi/CMakeFiles/ckm.dir
